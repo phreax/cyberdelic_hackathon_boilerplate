@@ -16,7 +16,7 @@ Includes:
 - Hand tracking, scene understanding, and mixed reality layers
 - Meta-specific API access and visual templates for immersive experiences
 
-Use this version if you are building for **Meta Quest 2, 3, or Pro** and want to leverage Meta features such as passthrough and color camera access.
+Use this version if you are building for **Meta Quest 2, 3, or Pro** and want to leverage Meta features such as passthrough modifiation, and color camera access and easy to use building-blocks.
 
 ---
 
@@ -30,6 +30,10 @@ Includes:
 - Cross-platform configuration suitable for PCVR or standalone OpenXR builds
 
 Use this version if you want a **clean, cross-platform XR foundation** without Meta dependencies.
+It still supports many native Meta features such passthrough (without direct camera access) through the provided MetaXR plugin. 
+
+Both versions use the Unified Rendering Pipeline (URP) and work with Unity 6 (tested on 6000.2.8f1).
+Of course you may mix both versions and take what you need (e.g. Meta's native OVRPassthrough + and XR Interaction Toolkit)
 
 ---
 
