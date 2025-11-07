@@ -449,7 +449,7 @@ GameObject:
   - component: {fileID: 135677550}
   - component: {fileID: 135677549}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1044,80 +1044,6 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &416408413
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 416408414}
-  - component: {fileID: 416408415}
-  m_Layer: 0
-  m_Name: OSCManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &416408414
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 416408413}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.45019, y: 0, z: 5.9862}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &416408415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 416408413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51f8f979447c54247bcba0d5441e6081, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: OscJack.Runtime::OscJack.OscEventReceiver
-  _connection: {fileID: 0}
-  _oscAddress: /unity
-  _dataType: 0
-  _event:
-    m_PersistentCalls:
-      m_Calls: []
-  _intEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _floatEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _vector2Event:
-    m_PersistentCalls:
-      m_Calls: []
-  _vector3Event:
-    m_PersistentCalls:
-      m_Calls: []
-  _vector4Event:
-    m_PersistentCalls:
-      m_Calls: []
-  _vector2IntEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _vector3IntEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _stringEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &468186021
 GameObject:
   m_ObjectHideFlags: 0
@@ -3782,11 +3708,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!4 &1948693208 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 657184242118504721, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
-  m_PrefabInstance: {fileID: 5534409079552104243}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1951738959
 GameObject:
   m_ObjectHideFlags: 0
@@ -4058,7 +3979,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2111167071}
   - component: {fileID: 2111167070}
-  - component: {fileID: 2111167072}
   m_Layer: 0
   m_Name: AudioDriver
   m_TagString: Untagged
@@ -4128,21 +4048,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2111167072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2111167069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 310c5fcf4b51646e0b78a7da9471b912, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  driver: {fileID: 2111167070}
-  xrCamera: {fileID: 1948693208}
-  distance: 0.7
 --- !u!1001 &2136505714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4522,4 +4427,3 @@ SceneRoots:
   - {fileID: 135677548}
   - {fileID: 1465784927}
   - {fileID: 2111167071}
-  - {fileID: 416408414}
